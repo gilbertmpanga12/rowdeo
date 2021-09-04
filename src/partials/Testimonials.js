@@ -26,9 +26,12 @@ function Testimonials() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h2 className="h2 mb-4">Trusted by over 20,000 users all over the world</h2>
-            <p className="text-xl text-gray-600" data-aos="zoom-y-out">Arcu cursus vitae congue mauris rhoncus viverra nibh cras pulvinar mattis
-                blandit libero cursus mattis.</p>
+            <h2 className="h2 mb-4">Trusted by millions all over the world</h2>
+            <p className="text-xl text-gray-600" data-aos="zoom-y-out">
+            Rowdeo is building a physical layer of peer to peer transactions that are 
+             enabling trade, borderless payments, creator commerce where banks & institutional
+             finance has failed.
+             </p>
           </div>
 
           {/* Items */}

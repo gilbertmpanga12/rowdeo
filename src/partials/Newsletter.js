@@ -39,14 +39,17 @@ function Newsletter() {
 
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl">
-                <h3 className="h3 text-white mb-2">Join Rowdeo now, swap and earn!</h3>
-                <p className="text-gray-300 text-lg mb-6">Don't miss out on our weekly newsletter where we discuss personal finance, remote work and crypto economy.</p>
+                <h3 className="h3 text-white mb-2">Join Rowdeo now</h3>
+                <p className="text-gray-300 text-lg mb-6">
+                The future of creator and ownership economy 
+starts with a reliable physical crypto layer, don't miss out!
+                </p>
 
                 {/* CTA form */}
                 <form className="w-full lg:w-auto">
                   <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
                     <input type="email" className="w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500" placeholder="Your email…" aria-label="Your email…" />
-                    <a className="btn text-white bg-green-500 hover:bg-green-700 shadow" href="#0">Register</a>
+                    <a className="btn text-white bg-green-500 hover:bg-green-700 shadow" href="#0">Signup</a>
                   </div>
                   {/* Success message */}
                   {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
