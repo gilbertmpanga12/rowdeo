@@ -87,11 +87,11 @@ function Testimonials() {
                   <img className="relative rounded-full" src={require('../images/testimonial.jpg').default} width="96" height="96" alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ I love this product and would recommend it to anyone. Could be not easier to use, and our multiple websites are wonderful. We get nice comments all the time. “
+                  “ Yeah, this would be cool. I have a course maker from Ghana, he is struggling to get paid exactly because of this reason Unamused face“
                 </blockquote>
-                <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
+                <cite className="block font-bold text-lg not-italic mb-1">SeaCat</cite>
                 <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span> <a className="text-blue-600 hover:underline" href="#0">@Dropbox</a>
+                  <span>Founder LMS</span> <a className="text-blue-600 hover:underline" href="https://twitter.com/SeaCatBiz/status/1428075963779194886">@Twitter</a>
                 </div>
               </div>
 
