@@ -32,23 +32,27 @@ function HeroHome() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Earn when you<span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-teal-400"> swap cash for eth</span></h1>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Interprete clauses & understand<span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-teal-400"> your contract</span></h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">We are a community of enthusiasts that want to break the barrier of
-payouts by enabling easy exchange of crypto for cash.</p>
+              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">We help individuals & businesses understand contracts 
+so that are not exploited or undergo lawsuits.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <a className="btn text-white bg-green-500 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Earn swapping cash</a>
+                  <a className="btn text-white font-semibold md:py-3 md:px-8 md:text-2xl  bg-green-500 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
+</svg>&nbsp;&nbsp;Upload contract</a>
                 </div>
+                {/* 
                 <div>
                   <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">I'm a creator</a>
                 </div>
+                */}
               </div>
             </div>
           </div>
 
           {/* Hero image */}
-          <div>
+          {/* <div>
             <div className="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
               <div className="flex flex-col justify-center">
                 <img className="mx-auto" src={require('../images/hero-image.png').default} width="768" height="432" alt="Hero" />
@@ -90,14 +94,14 @@ payouts by enabling easy exchange of crypto for cash.</p>
               </button>
             </div>
 
-            {/* Modal */}
+     
             <Modal id="modal" ariaLabel="modal-headline" show={videoModalOpen} handleClose={() => setVideoModalOpen(false)}>
               <div className="relative pb-9/16">
                 <iframe className="absolute w-full h-full" src="https://www.youtube.com/watch?v=WSN5BaCzsbo" title="Video" allowFullScreen></iframe>
               </div>
             </Modal>
 
-          </div>
+          </div> */}
 
         </div>
 

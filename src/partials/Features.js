@@ -30,12 +30,12 @@ function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Why swapping cash matters?</h1>
+            <h1 className="h2 mb-4">Why knowing what contract clauses mean matters?</h1>
             <p className="text-xl text-gray-600">
-            Converting crypto back to fiat money is still hard.
-Many financial institutions still lack crypto
-support &  pay-outs infrastructure, especially in developing countries.
- There's also a lack of a physical, secure, safe, and trustable online community platform that handles peer-to-peer money exchange.
+            Contracts use complex language to protect employers from
+any legal implications. Not understanding what each clause / term
+may lead to breach of contract leading to lawsuits. In othercases,
+the contract maybe abusive & exploitative in nature to workers.
             </p>
           </div>
 
@@ -45,10 +45,9 @@ support &  pay-outs infrastructure, especially in developing countries.
 {/* Content */}
 <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
   <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-    <h3 className="h3 mb-3">Crypto to fiat made easy</h3>
+    <h3 className="h3 mb-3">How Rowdeo works?</h3>
     <p className="text-xl text-gray-600">
-      A safe and reliable way to swap fiat currency for crypto and vice versa while earning
-      bonus crypto.
+      Getting legal counselling and contract interpretation shouldn't be hard and expensive.
     </p>
   </div>
   {/* Tabs buttons */}
@@ -59,8 +58,8 @@ support &  pay-outs infrastructure, especially in developing countries.
       onClick={(e) => { e.preventDefault(); setTab(1); }}
     >
       <div>
-        <div className="font-bold leading-snug tracking-tight mb-1">Earn extra crypto when swapping cash</div>
-        <div className="text-gray-600">Make money when you swap your cash for crypto.</div>
+        <div className="font-bold leading-snug tracking-tight mb-1">Submit your contract</div>
+        <div className="text-gray-600">Upload contract, fill extra details. You can leave personal questions regarding the contract too.</div>
       </div>
       <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
         <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -74,8 +73,8 @@ support &  pay-outs infrastructure, especially in developing countries.
       onClick={(e) => { e.preventDefault(); setTab(2); }}
     >
       <div>
-        <div className="font-bold leading-snug tracking-tight mb-1">Secure and safe</div>
-        <div className="text-gray-600">All users are carefully vetted & thoroughly vetted so that you never face any incidents.</div>
+        <div className="font-bold leading-snug tracking-tight mb-1">Contract interpretation</div>
+        <div className="text-gray-600">Your contract is assigned to our elite lawyers who use human intelligence and internal tools to process your contract.</div>
       </div>
       <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
         <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -89,8 +88,8 @@ support &  pay-outs infrastructure, especially in developing countries.
       onClick={(e) => { e.preventDefault(); setTab(3); }}
     >
       <div>
-        <div className="font-bold leading-snug tracking-tight mb-1">Large reliable ecosystem</div>
-        <div className="text-gray-600">Anyone can join, the large the community the easier & faster to get fiat money or crypto.</div>
+        <div className="font-bold leading-snug tracking-tight mb-1">Get full report with interpretation</div>
+        <div className="text-gray-600">Finally, your a full review of clauses is interpreted in a normal language that shows defines each clause and potential implications.</div>
       </div>
       <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
         <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -117,8 +116,7 @@ support &  pay-outs infrastructure, especially in developing countries.
       leaveEnd="opacity-0 -translate-y-16"
     >
       <div className="relative inline-flex flex-col">
-        <img className="md:max-w-none mx-auto rounded" src={require('../images/features-bg.png').default} width="500" height="462" alt="Features bg" />
-        <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-element.png').default} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+      <img className="md:max-w-none mx-auto rounded" src={require('../images/upload-contract.png').default} width="500" height="462" alt="Features bg" />
       </div>
     </Transition>
     {/* Item 2 */}
@@ -134,8 +132,8 @@ support &  pay-outs infrastructure, especially in developing countries.
       leaveEnd="opacity-0 -translate-y-16"
     >
       <div className="relative inline-flex flex-col">
-        <img className="md:max-w-none mx-auto rounded" src={require('../images/features-bg.png').default} width="500" height="462" alt="Features bg" />
-        <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-element.png').default} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+        <img className="md:max-w-none mx-auto rounded" src={require('../images/interprete-contract.png').default} width="500" height="462" alt="Features bg" />
+ 
       </div>
     </Transition>
     {/* Item 3 */}
@@ -151,8 +149,7 @@ support &  pay-outs infrastructure, especially in developing countries.
       leaveEnd="opacity-0 -translate-y-16"
     >
       <div className="relative inline-flex flex-col">
-        <img className="md:max-w-none mx-auto rounded" src={require('../images/features-bg.png').default} width="500" height="462" alt="Features bg" />
-        <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-element.png').default} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+      <img className="md:max-w-none mx-auto rounded" src={require('../images/features-bg.png').default} width="500" height="462" alt="Features bg" />
       </div>
     </Transition>
   </div>

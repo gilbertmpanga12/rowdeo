@@ -39,10 +39,10 @@ function Newsletter() {
 
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl">
-                <h3 className="h3 text-white mb-2">Join Rowdeo now</h3>
+                <h3 className="h3 text-white mb-2">Interprete your contract now</h3>
                 <p className="text-gray-300 text-lg mb-6">
-                The future of creator and ownership economy 
-starts with a reliable physical crypto layer, don't miss out!
+                Don't sign what you don't understand, make the right decisions before
+                you take that stoke of a pen.
                 </p>
 
                 {/* CTA form */}

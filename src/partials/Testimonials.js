@@ -28,9 +28,9 @@ function Testimonials() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h2 className="h2 mb-4">Trusted by millions all over the world</h2>
             <p className="text-xl text-gray-600" data-aos="zoom-y-out">
-            Rowdeo is building a physical layer of peer to peer transactions that are 
-             enabling trade, borderless payments, creator commerce where banks & institutional
-             finance has failed.
+            Rowdeo is democratising access to legal advice and making it easy for individuals 
+            and businesses around the world make the right decisions before signing any contract.
+         
              </p>
           </div>
 

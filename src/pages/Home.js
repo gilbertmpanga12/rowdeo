@@ -21,7 +21,7 @@ function Home() {
         {/*  Page sections */}
         <HeroHome />
         <FeaturesHome />
-        <FeaturesBlocks />
+        {/* <FeaturesBlocks /> */}
         <Testimonials />
         <Newsletter />
 
