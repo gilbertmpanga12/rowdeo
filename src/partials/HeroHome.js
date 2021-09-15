@@ -34,8 +34,7 @@ function HeroHome() {
           <div className="text-center pb-12 md:pb-16">
             <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Interprete clauses & understand<span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-teal-400"> your contract</span></h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">We help individuals & businesses understand contracts 
-so that are not exploited or undergo lawsuits.</p>
+              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">We help individuals & businesses understand their contracts to save them from exploitation or lawsuits.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
                   <a className="btn text-white font-semibold md:py-3 md:px-8 md:text-2xl  bg-green-500 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

@@ -32,10 +32,7 @@ function Features() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Why knowing what contract clauses mean matters?</h1>
             <p className="text-xl text-gray-600">
-            Contracts use complex language to protect employers from
-any legal implications. Not understanding what each clause / term
-may lead to breach of contract leading to lawsuits. In othercases,
-the contract maybe abusive & exploitative in nature to workers.
+            Contracts use complex language to protect employers from any legal implications. Any misinterpretation of clauses may lead to a breach of contract leading to lawsuits. In other cases, the contract may be abusive & exploitative to workers.
             </p>
           </div>
 
@@ -59,7 +56,7 @@ the contract maybe abusive & exploitative in nature to workers.
     >
       <div>
         <div className="font-bold leading-snug tracking-tight mb-1">Submit your contract</div>
-        <div className="text-gray-600">Upload contract, fill extra details. You can leave personal questions regarding the contract too.</div>
+        <div className="text-gray-600">Upload contract, fill in extra details & attach any accompanying questions you may have.</div>
       </div>
       <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
         <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -74,7 +71,7 @@ the contract maybe abusive & exploitative in nature to workers.
     >
       <div>
         <div className="font-bold leading-snug tracking-tight mb-1">Contract interpretation</div>
-        <div className="text-gray-600">Your contract is assigned to our elite lawyers who use human intelligence and internal tools to process your contract.</div>
+        <div className="text-gray-600">Your contract gets assigned to our elite lawyers that use human intelligence, expertise, and internal tools to interpret the contract.</div>
       </div>
       <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
         <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -89,7 +86,7 @@ the contract maybe abusive & exploitative in nature to workers.
     >
       <div>
         <div className="font-bold leading-snug tracking-tight mb-1">Get full report with interpretation</div>
-        <div className="text-gray-600">Finally, your a full review of clauses is interpreted in a normal language that shows defines each clause and potential implications.</div>
+        <div className="text-gray-600">Finally, a full review of each clause gets created. All clauses are highlighted and explained in simple language with warnings of issues and implications.</div>
       </div>
       <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
         <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
