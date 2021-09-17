@@ -47,9 +47,16 @@ function Newsletter() {
 
                 {/* CTA form */}
                 <form className="w-full lg:w-auto">
-                  <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
-                    <input type="email" className="w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500" placeholder="Your email…" aria-label="Your email…" />
-                    <a className="btn text-white bg-green-500 hover:bg-green-700 shadow" href="#0">Signup</a>
+                  {/* justify-center */}
+                  <div className="flex flex-col sm:flex-row  max-w-xs mx-auto sm:max-w-md lg:mx-0">
+                    {/* <input type="email" className="w-full appearance-none bg-gray-800 border border-gray-700 
+                    focus:border-gray-600 rounded-sm px-4 py-3 
+                    mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500" 
+                    placeholder="Your email…" aria-label="Your email…" /> */}
+                    {/* <a className="btn text-white bg-green-500 hover:bg-green-700 shadow" href="#0">Signup</a> */}
+                    <a className="btn text-white font-semibold md:py-3 md:px-8 md:text-1xl  bg-green-500 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
+</svg>&nbsp;&nbsp;Upload contract</a>
                   </div>
                   {/* Success message */}
                   {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
