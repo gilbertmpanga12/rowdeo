@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Newsletter() {
   return (
@@ -54,9 +55,11 @@ function Newsletter() {
                     mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500" 
                     placeholder="Your email…" aria-label="Your email…" /> */}
                     {/* <a className="btn text-white bg-green-500 hover:bg-green-700 shadow" href="#0">Signup</a> */}
-                    <a className="btn text-white font-semibold md:py-3 md:px-8 md:text-1xl  bg-green-500 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <Link to="/signup" className="btn text-white font-semibold md:py-3 md:px-8 md:text-1xl  bg-green-500 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0">
+<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
-</svg>&nbsp;&nbsp;Upload contract</a>
+</svg>&nbsp;&nbsp;Upload contract
+</Link>
                   </div>
                   {/* Success message */}
                   {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}

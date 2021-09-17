@@ -26,7 +26,10 @@ function Header() {
               <img src={require('../images/rowdeo.png').default} width="32" height="32" alt="Rowdeo"/>
             </Link>
           </div>
+          <Link to="/" className="block out-line-none" aria-label="Cruip">
           <strong className="hidden md:block text-2xl">Rowdeo</strong>
+            </Link>
+         
 
           {/* Site navigation */}
           <nav className="flex flex-grow">

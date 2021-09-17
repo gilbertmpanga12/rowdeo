@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Modal from '../utils/Modal';
+import { Link } from 'react-router-dom';
 
 function HeroHome() {
 
@@ -37,9 +38,11 @@ function HeroHome() {
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">We help individuals & businesses understand their contracts to save them from exploitation or lawsuits.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <a className="btn text-white font-semibold md:py-3 md:px-8 md:text-2xl  bg-green-500 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <Link to="/signup" className="btn text-white font-semibold md:py-3 md:px-8 md:text-2xl  bg-green-500 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0">
+<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
-</svg>&nbsp;&nbsp;Upload contract</a>
+</svg>&nbsp;&nbsp;Upload contract
+</Link>
                 </div>
                 {/* 
                 <div>
