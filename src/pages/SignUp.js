@@ -24,7 +24,11 @@ function SignUp() {
 
               {/* Form */}
               <div className="max-w-sm mx-auto">
-                <form>
+
+                  {/**Email and Password login form */}
+
+                {/**
+                 <form>
                   <div className="flex flex-wrap -mx-3 mb-4">
                     <div className="w-full px-3">
                       <label className="block text-gray-800 text-sm font-medium mb-1" htmlFor="name">Name <span className="text-red-600">*</span></label>
@@ -52,11 +56,21 @@ function SignUp() {
                     By creating an account, you agree to the <a className="underline" href="#0">terms & conditions</a>, and our <a className="underline" href="#0">privacy policy</a>.
                                 </div>
                 </form>
-                <div className="flex items-center my-6">
+
+                 */}  
+                
+                {/**Content seperator */}
+
+                {/**
+                   <div className="flex items-center my-6">
                   <div className="border-t border-gray-300 flex-grow mr-3" aria-hidden="true"></div>
                   <div className="text-gray-600 italic">Or</div>
                   <div className="border-t border-gray-300 flex-grow ml-3" aria-hidden="true"></div>
                 </div>
+                 */}
+              
+
+                {/** Google login form */}
                 <form>
                   {/* <div className="flex flex-wrap -mx-3 mb-3">
                     <div className="w-full px-3">
