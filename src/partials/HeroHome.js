@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import Modal from '../utils/Modal';
+import React, { /*useState*/ } from 'react';
+//import Modal from '../utils/Modal';
 import { Link } from 'react-router-dom';
 
 function HeroHome() {
 
-  const [videoModalOpen, setVideoModalOpen] = useState(false);
+  //const [videoModalOpen, setVideoModalOpen] = useState(false);
 
   return (
     <section className="relative">
