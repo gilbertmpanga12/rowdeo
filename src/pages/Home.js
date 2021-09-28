@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React  from 'react';
 
 import Header from '../partials/Header';
 import HeroHome from '../partials/HeroHome';
@@ -8,14 +8,8 @@ import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
 import Footer from '../partials/Footer';
 
-import { useSigninCheck } from 'reactfire';
 
 function Home() {
-     const {status, data: { signedIn }} = useSigninCheck()
-      useEffect(()=>{
-        console.log(`status:${status} , data: ${signedIn}`)
-    })
-
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
 

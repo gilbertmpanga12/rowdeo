@@ -10,15 +10,14 @@ import { useSigninCheck } from 'reactfire';
  * @param { Object } rest - Props and other stuff
  */
 export const ProtectedRoute = ({ children, ...rest }) => {
-    const { status, data: { signInCheckResult } } = useSigninCheck();
-
-    console.log(signInCheckResult)
+    const { status, data: signInCheckResult } = useSigninCheck();
     return (
         <Route
             {...rest}
             render={
                 () => {
-                    return signInCheckResult? children : <Redirect to={SIGNIN_PATH}/>
+                       if( status === 'laoding') return <div>Loading...</div>
+                       return signInCheckResult.signedIn ? children : <Redirect to={SIGNIN_PATH}/>
                 }
             }
         />
@@ -37,7 +36,8 @@ export const AuthenticatedRedirect = ({ children, ...rest }) => {
             {...rest}
             render={
                 () => {
-                     return signInCheckResult? <Redirect to={DASHBOARD_PATH} /> : children
+                      if(status === 'loading') return <div>Loading...</div>
+                     return signInCheckResult.signedIn ? <Redirect to={DASHBOARD_PATH} /> : children
                 }
             }
         />
