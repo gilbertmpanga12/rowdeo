@@ -16,7 +16,9 @@ export const ProtectedRoute = ({ children, ...rest }) => {
             {...rest}
             render={
                 () => {
+                       console.log(status) // For debugging purposes
                        if( status === 'laoding') return <div>Loading...</div>
+                       console.log(signInCheckResult.signedIn) //for debugging purposes
                        return signInCheckResult.signedIn ? children : <Redirect to={SIGNIN_PATH}/>
                 }
             }
@@ -36,8 +38,10 @@ export const AuthenticatedRedirect = ({ children, ...rest }) => {
             {...rest}
             render={
                 () => {
+                      console.log(status) // For debugging purposes
                       if(status === 'loading') return <div>Loading...</div>
-                     return signInCheckResult.signedIn ? <Redirect to={DASHBOARD_PATH} /> : children
+                      console.log(signInCheckResult.signedIn) // for debugging purposes...
+                      return signInCheckResult.signedIn ? <Redirect to={DASHBOARD_PATH} /> : children
                 }
             }
         />
